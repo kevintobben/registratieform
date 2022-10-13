@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="regi.css">
+    <title>Registratie pagina</title>
+</head>
+<body>
+  <div class="regi-vak">
+        <h1>Registreren</h1>
+
+      <form action="process-register.php" method="post" id="signup">
+          <label for="name">Naam</label>
+          <input type="text" id="name" name="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+
+          <label for="password">Wachtwoord</label>
+          <input type="password" id="password" name="password">
+
+          <label for="passwordconfirmation">Herhaal wachtwoord</label>
+          <input type="password" id="passwordconfirmation" name="passwordconfirmation">
+
+          <button type="submit" name="submit">Registreren</button>
+
+          <p class="text">Heb je al een account? <a href="login.php" >Klik op deze link om in te loggen!</a></p>
+    </form>
+
+  </div>
+</body>
+</html>

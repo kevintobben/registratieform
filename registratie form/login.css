@@ -1,0 +1,62 @@
+body {
+    background-color: #14181a;
+    font-family: Montserrat, sans-serif;;
+}
+
+.login-vak {
+    color: #f79f1f;
+    width: 360px;
+    height: 400px;
+    margin: auto;
+    background-color: #272729;
+    border: 1px solid #343536;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+form p a {
+    color: #f79f1f;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    color: #f79f1f;
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    width: 314px;
+    height: 35px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #272729;
+    background-color: #f79f1f;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+a:hover {
+    color: darkorange;
+}
